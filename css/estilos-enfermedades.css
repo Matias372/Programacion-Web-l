@@ -1,0 +1,226 @@
+
+@media screen and (max-width: 450px){
+    /*Titulo*/
+    .TituloE{
+        text-align: center;
+    }
+
+    .TituloE h1{
+        font-family: arial;
+        font-size: 24px;
+        font-weight: lighter;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        color: rgb(77, 77, 77);
+    }
+
+    .TituloE input{
+        border: 1px solid rgb(92, 92, 92) ;
+        background-color: rgb(243, 243, 243);
+        width: 85%;
+        height: 35px;
+        border-radius: 10px;
+        text-align: center;
+        color: black;
+    }
+
+    .TituloE a{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        background-image: url(../Img/search-icon.png);
+        background-size: cover;
+        position: relative;
+        top:15px;
+        left:5px;
+    }
+
+    /*ENFERMEDADES*/
+    .Enfermedades{
+        width: 90%;  
+        margin: auto;
+    }
+
+    .Enfermedades article{
+        display: inline-block; 
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 2% 0;
+    }
+
+    .Enfermedades img{
+        width: 30%;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-right: 2em;
+        height: 100%;
+    }
+
+    .Enfermedades button{
+        background-color: rgb(92, 92, 92);
+        color: white;
+        text-align: center;
+        font-family: arial;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    .Enfermedades p{
+        
+        overflow: auto;
+    }
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 800px){
+    /*Titulo*/
+    .TituloE{
+        text-align: center;
+    }
+
+    .TituloE h1{
+        font-family: arial;
+        font-size: 24px;
+        font-weight: lighter;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        color: rgb(77, 77, 77);
+    }
+
+    .TituloE input{
+        border: 1px solid rgb(92, 92, 92) ;
+        background-color: rgb(243, 243, 243);
+        width: 85%;
+        height: 35px;
+        border-radius: 10px;
+        text-align: center;
+        color: black;
+    }
+
+    .TituloE a{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        background-image: url(../Img/search-icon.png);
+        background-size: cover;
+        position: relative;
+        top:15px;
+        left:5px;
+    }
+
+    /*ENFERMEDADES*/
+    .Enfermedades{
+        width: 90%;  
+        margin: auto;
+    }
+
+    .Enfermedades article{
+        display: inline-block; 
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 2% 0;
+    }
+
+    .Enfermedades img{
+        width: 25%;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-right: 2em;
+        height: 100%;
+    }
+
+    .Enfermedades button{
+        background-color: rgb(92, 92, 92);
+        color: white;
+        text-align: center;
+        font-family: arial;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    .Enfermedades p{
+        
+        overflow: auto;
+    }
+}
+
+@media screen and (min-width: 800px){
+        /*Titulo*/
+    .TituloE{
+        text-align: center;
+    }
+
+    .TituloE h1{
+        font-family: arial;
+        font-size: 24px;
+        font-weight: lighter;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        color: rgb(77, 77, 77);
+    }
+
+    .TituloE input{
+        border: 1px solid rgb(92, 92, 92) ;
+        background-color: rgb(243, 243, 243);
+        width: 85%;
+        height: 35px;
+        border-radius: 10px;
+        text-align: center;
+        color: black;
+    }
+
+    .TituloE a{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        background-image: url(../Img/search-icon.png);
+        background-size: cover;
+        position: relative;
+        top:15px;
+        left:5px;
+    }
+
+    /*ENFERMEDADES*/
+    .Enfermedades{
+        width: 90%;  
+        margin: auto;
+    }
+
+    .Enfermedades article{
+        display: inline-block; 
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 2% 0;
+    }
+
+    .Enfermedades img{
+        width: 25%;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-right: 2em;
+        height: 100%;
+    }
+
+    .Enfermedades button{
+        background-color: rgb(92, 92, 92);
+        color: white;
+        text-align: center;
+        font-family: arial;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    .Enfermedades p{
+        
+        overflow: auto;
+    }
+}
+
+
+

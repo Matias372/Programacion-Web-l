@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: rgb(49, 49, 49);
+}
+
+
+header img{
+    width: 120px;
+    display: inline-flexbox;
+}
+
+.nota #principal{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: 'Lemonada', cursive;
+}
+
+.nota #secundario{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10%;
+}
+/*FONDO DEL BOSQUE CON ANIMACION*/
+.fondo{
+    height: 224px;
+    width: 1600px;
+    background: url("../img/Fondo-bosque.png");
+    background-repeat: repeat-x;
+    position: relative;
+    margin: 0 auto;
+    animation: fondoAnimado 6s linear infinite;
+    border: 5px solid gray;
+}
+
+/*PERSONAJES PRESENTACION*/
+.nombres{
+    padding-bottom: 5%;
+}
+.Ruibal{
+    height: 65px;
+    width: 64.4px;
+    margin: 0 auto;
+    background: url("../img/Animation/Lancer/Lancer-attack-R.png");
+    animation: L-attack 1s steps(8) infinite;
+    position: absolute;
+    top: 40%;
+    left: 33%;
+}
+.Ruibal p{
+    font-family: arial;
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+
+.Lopez{
+    height: 65px;
+    width: 64.4px;
+    margin: 0 auto;
+    background: url("../img/Animation/Fighter/Fighter-attack-R.png");
+    animation: F-attack 1s steps(6) infinite;
+    position: absolute;
+    top: 40%;
+    left: 46%;
+}
+.Lopez p{
+    font-family: arial;
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+
+.Villalba{
+    height: 65px;
+    width: 64.4px;
+    margin: 0 auto;
+    background: url("../img/Animation/Archer/Archer-attack-R.png");
+    animation: A-attack 1s steps(12) infinite;
+    position: absolute;
+    top: 40%;
+    left: 58%;
+}
+.Villalba p{
+    font-family: arial;
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+
+
+
+/*PERSONAJES CAMINANDO*/
+.lancer{
+    height: 65px;
+    width: 64.4px;
+    margin: 0 auto;
+    background: url("../img/Animation/Lancer/Lancer-walking-R.png");
+    animation: correr 1s steps(9) infinite;
+    position: absolute;
+    top: 60%;
+    left: 11%;
+}
+
+.fighter{
+    height: 65px;
+    width: 64.4px;
+    margin: 0 auto;
+    background: url("../img/Animation/Fighter/Fighter-walking-R.png");
+    animation: correr 1s steps(9) infinite;
+    position: absolute;
+    top: 60%;
+    left: 6%;
+}
+
+.archer{
+    height: 65px;
+    width: 64.4px;
+    margin: 0 auto;
+    background: url("../img/Animation/Archer/Archer-walking-R.png");
+    animation: correr 1s steps(9) infinite;
+    position: absolute;
+    top: 60%;
+    left: 1%;
+}
+
+
+@keyframes correr{
+    0%{
+        background-position: 0px;
+    }   
+
+    100%{
+        background-position: -576px;
+    }
+}
+
+@keyframes fondoAnimado{
+    0%{
+        background-position: 0px;
+    }   
+
+    100%{
+        background-position: -384px;
+    }
+}
+
+@keyframes L-attack{
+    0%{
+        background-position: 0px;
+    }   
+
+    100%{
+        background-position: -512px;
+    }
+}
+
+@keyframes F-attack{
+    0%{
+        background-position: 0px;
+    }   
+
+    100%{
+        background-position: -384px;
+    }
+}
+
+@keyframes A-attack{
+    0%{
+        background-position: 0px;
+    }   
+
+    100%{
+        background-position: -768px;
+    }
+}

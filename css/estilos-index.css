@@ -1,0 +1,572 @@
+@media screen and (max-width: 450px){
+    
+    /*slider prueba*/
+    /*separacion de slider para que no este pegado al header y background*/
+    .slider{
+        padding: 40px 0px 0px 0px;
+        background-color: rgb(182, 182, 182);
+        
+    }
+    .contenedor{
+        width: 100%;
+        /*max-width: 900px;*/
+        /*max-height: 500px;
+        position: relative;
+        overflow: hidden;*/
+        /*box-shadow: 0 0 0 10px #fff, 0 15px 50px;*/
+        /* max-width: 640px;
+        margin: auto;*/
+    }
+
+    .bx-wrapper{
+            width: 800px;
+    }
+
+    .bxslider{
+            /* display: flex;*/
+            width: 100%;
+            
+            position: relative;
+            left: 5%; 
+        }
+
+    .bxslider section{
+        width: 100%;
+    }
+
+    .bxslider img{
+        display: block;
+        width: 90%;
+        height: 90%;
+        
+    }
+
+    
+    
+
+     /* Slider botones*/
+     .bx-pager{
+        width: 150px;
+        display: flex;
+        position: relative;
+        left: 33%;
+        margin-top: 5px;
+        margin-bottom: 3%;
+    }
+    .bx-pager-item{
+        margin-left: 20px;
+        width: 10px;
+        height: 10px;
+        background-color: black;
+        border-radius: 100%; 
+    }
+    .bx-pager-item a{
+        position: relative;
+        left: 3px;
+        top: -7px;
+        color: black;
+        width: 10px;
+        height: 10px;
+        font-size: 8px;
+        text-decoration: none;
+        
+    }
+
+    .bx-controls-direction{
+        display: none;
+    }
+    /*botones < y >/
+    #btn-prev, #btn-next{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        line-height: 55px;
+        font-size: 70px;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 50%;
+        font-family:monospace;
+        cursor: pointer;
+    }*/
+
+    /* #btn-prev:hover, #btn-next:hover{
+        background: rgba(255, 255, 255, 1);
+    }
+
+    #btn-prev{
+        left: 20px;
+    }
+
+    #btn-next{
+        right: 20px;
+    }*/
+
+    /*centre las 3 imagenes mas el titulo de la pagin*/
+    .columnas{
+        text-align: center;
+        width: auto;
+        padding: 20px;
+       
+
+    }
+    /*titulo de la pagina */
+    .Titulo{
+        text-align: center;
+        font-family: arial;
+        font-size: 14px;
+        margin-bottom: 22px;
+    }
+    /*las columnas con imagenes, lo centre y puse en la misma linea*/
+    .ART{
+        text-align: center;
+        display: inline-block;
+        margin: auto;
+    }
+    /*detalles de las imagenes de columna*/
+    .columnas img{
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+        /*border: 1px solid rgb(80, 80, 80);*/
+        background-color: rgb(230, 230, 230);
+    }
+    .columnas img:hover{
+        background-color: rgba(245, 245, 245, 1)
+    }
+
+    /*ahora uso las vacunas para separar las imagenes*/
+    #vacunas{
+        margin: 5%;
+    }
+
+    /*texto de columna*/
+    h2{
+        font-family: calibri;
+        background-color: rgb(41, 41, 41);
+        color: white;
+        border-radius: 4px;
+        font-size: 10px;
+    }
+
+
+    /*telefono*/
+    .telefono{
+        background-color: gray;
+        padding: 25px 0px;
+        margin-top: 25px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .telefono article{
+        display:inline-flex;
+        align-items: flex-end;
+        width: 100%;
+    }
+    .D1{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+    .telefono p{
+        color: white;
+        font-family: arial;
+    }
+    #P1{
+        font-size: 12px;
+    }
+    #P2{
+        font-size: 25px;
+        margin-top: 10px;    
+    }
+    .D2{
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+    .telefono img{
+        width: 60px;
+        height: 60px;
+    }
+    #P3{
+        display: inline;
+        font-size: 65px;
+        color: white;
+    }
+   
+    
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 800px){
+    /*slider prueba*/
+    /*separacion de slider para que no este pegado al header y background*/
+    .slider{
+        padding: 15px 0px 0px 0px;
+        background-color: rgb(182, 182, 182);
+    }
+    .contenedor{
+        width: 100%;
+        /*max-width: 900px;*/
+        /*max-height: 500px;
+        position: relative;
+        overflow: hidden;*/
+        /*box-shadow: 0 0 0 10px #fff, 0 15px 50px;*/
+        /* max-width: 640px;
+        margin: auto;*/
+    }
+
+    .bx-wrapper{
+            width: 800px;
+    }
+
+    .bxslider{
+            /* display: flex;*/
+            width: 100%;
+            position: relative;
+            left: 5%; 
+        }
+
+    .bxslider section{
+        width: 100%;
+    }
+
+    .bxslider img{
+        display: block;
+        width: 90%;
+        height: 90%;
+    }
+
+    
+    
+
+     /* Slider botones*/
+     .bx-pager{
+        width: 150px;
+        display: flex;
+        position: relative;
+        left: 40%;
+        margin-top: 5px;
+        margin-bottom: 3%;
+    }
+    .bx-pager-item{
+        margin-left: 20px;
+        width: 20px;
+        height: 20px;
+        background-color: black;
+        border-radius: 100%; 
+    }
+    .bx-pager-item a{
+        position: relative;
+        left: 5px;
+        color: black;
+        width: 10px;
+        height: 10px;
+    }
+
+    .bx-controls-direction{
+        display: none;
+    }
+    /*botones < y >/
+    #btn-prev, #btn-next{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        line-height: 55px;
+        font-size: 70px;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 50%;
+        font-family:monospace;
+        cursor: pointer;
+    }*/
+
+    /* #btn-prev:hover, #btn-next:hover{
+        background: rgba(255, 255, 255, 1);
+    }
+
+    #btn-prev{
+        left: 20px;
+    }
+
+    #btn-next{
+        right: 20px;
+    }*/
+
+    /*centre las 3 imagenes mas el titulo de la pagin*/
+    .columnas{
+        text-align: center;
+        width: auto;
+        padding: 20px;
+
+    }
+    /*titulo de la pagina */
+    .Titulo{
+        text-align: center;
+        font-family: arial;
+        font-size: 17px;
+        margin-bottom: 22px;
+    }
+    /*las columnas con imagenes, lo centre y puse en la misma linea*/
+    .ART{
+        text-align: center;
+        display: inline-block;
+        margin: auto;
+    }
+    /*detalles de las imagenes de columna*/
+    .columnas img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        /*border: 1px solid rgb(80, 80, 80);*/
+        background-color: rgb(230, 230, 230);
+    }
+    .columnas img:hover{
+        background-color: rgba(245, 245, 245, 1)
+    }
+
+    /*ahora uso las vacunas para separar las imagenes*/
+    #vacunas{
+        margin: 0 15%;
+    }
+
+    /*texto de columna*/
+    h2{
+        font-family: calibri;
+        background-color: rgb(41, 41, 41);
+        color: white;
+        border-radius: 4px;
+        font-size: 15px;
+    }
+
+
+    /*telefono*/
+    .telefono{
+        background-color: gray;
+        padding: 25px 0px;
+        margin-top: 25px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .telefono article{
+        display:inline-flex;
+        align-items: flex-end;
+        width: 100%;
+    }
+    .D1{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+    .telefono p{
+        color: white;
+        font-family: arial;
+    }
+    #P1{
+        font-size: 17px;
+    }
+    #P2{
+        font-size: 50px;
+        margin-top: 10px;    
+    }
+    .D2{
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+    .telefono img{
+        width: 100px;
+        height: 100px;
+    }
+    #P3{
+        display: inline;
+        font-size: 120px;
+        color: white;
+    }
+   
+    
+
+}
+
+@media screen and (min-width: 800px){
+    /*slider prueba*/
+    /*separacion de slider para que no este pegado al header y background*/
+    .slider{
+        padding: 15px 0px 0px 0px;
+        background-color: rgb(182, 182, 182);
+    }
+    .contenedor{
+        margin: 0px;
+        width: 100%;
+        /*max-width: 900px;
+        max-height: 500px;
+        position: relative;
+        overflow: hidden;*/
+        /*box-shadow: 0 0 0 10px #fff, 0 15px 50px;*/
+    }
+
+    .bx-wrapper{
+        width: 1200px;
+}
+
+    .bxslider{
+            /* display: flex;*/
+            width: 100%;
+            height: fit-content;
+            position: relative;
+            left: 5%; 
+        }
+
+    .bxslider section{
+        width: 100%;
+    }
+
+    .bxslider img{
+        display: block;
+        
+        width: 90%;
+        height: 90%;
+    }
+
+    /* Slider botones*/
+    .bx-pager{
+        width: 150px;
+        display: flex;
+        position: relative;
+        left: 44%;
+        margin-top: 5px;
+        margin-bottom: 3%;
+    }
+    .bx-pager-item{
+        margin-left: 20px;
+        width: 20px;
+        height: 20px;
+        background-color: black;
+        border-radius: 100%; 
+    }
+    .bx-pager-item a{
+        position: relative;
+        left: 5px;
+        color: black;
+        width: 10px;
+        height: 10px;
+    }
+
+    .bx-controls-direction{
+        display: none;
+    }
+    
+
+    /*botones < y >*/
+    /* #btn-prev, #btn-next{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        line-height: 55px;
+        font-size: 70px;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 50%;
+        font-family:monospace;
+        cursor: pointer;
+    }*/
+
+    /*centre las 3 imagenes mas el titulo de la pagin*/
+    .columnas{
+        text-align: center;
+        width: auto;
+        padding: 20px;
+
+    }
+    /*titulo de la pagina */
+    .Titulo{
+        text-align: center;
+        font-family: arial;
+        font-size: 17px;
+        margin-bottom: 22px;
+    }
+    /*las columnas con imagenes, lo centre y puse en la misma linea*/
+    .ART{
+        text-align: center;
+        display: inline-block;
+        margin: auto;
+    }
+    /*detalles de las imagenes de columna*/
+    .columnas img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        /*border: 1px solid rgb(80, 80, 80);*/
+        background-color: rgb(230, 230, 230);
+    }
+    .columnas img:hover{
+        background-color: rgba(245, 245, 245, 1)
+    }
+
+    /*ahora uso las vacunas para separar las imagenes*/
+    #vacunas{
+        margin: 0 15%;
+    }
+
+    /*texto de columna*/
+    h2{
+        font-family: calibri;
+        background-color: rgb(41, 41, 41);
+        color: white;
+        border-radius: 4px;
+        font-size: 15px;
+    }
+
+
+    /*telefono*/
+    .telefono{
+        background-color: gray;
+        padding: 25px 0px;
+        margin-top: 25px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .telefono article{
+        display:inline-flex;
+        align-items: flex-end;
+        width: 100%;
+    }
+    .D1{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+    .telefono p{
+        color: white;
+        font-family: arial;
+    }
+    #P1{
+        font-size: 17px;
+    }
+    #P2{
+        font-size: 50px;
+        margin-top: 10px;    
+    }
+    .D2{
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+    .telefono img{
+        width: 100px;
+        height: 100px;
+    }
+    #P3{
+        display: inline;
+        font-size: 120px;
+        color: white;
+    }
+}

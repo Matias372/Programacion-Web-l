@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+@media screen and (max-width: 450px){
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
+    /* ######## Header ###########*/
+    header{
+        background-color:rgb(76, 76, 76);
+        width: 100%;
+        /* position: fixed;
+        z-index: 1; */
+    }
+    .contenedor{
+        width: 95%;
+        margin: auto;
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-end;
+        align-content: center;
+    }
+    .item1{
+        width: 25%;
+    }
+    header img {
+        width: 30%;
+        height: 30%;
+        padding: 2%;    
+        min-width: 80px;
+        min-height: 60px;
+    }
+    .item2{
+        width: 80%;
+        text-align: right;
+        margin: auto;
+        align-items: center;
+    }
+    .item2 input{
+        display: inline-block;
+        width: 85%;
+        height: 25px;
+        text-align: center;
+        margin: 0px;
+    }
+    .item2 a{
+        display: inline-block;
+        width: 25px;
+        height: 27px;
+        background-color:rgb(114, 114, 112);
+        background-image: url(../Img/search-icon.png);
+        background-size: cover;
+        position: relative;
+        top:9px;
+        right:5px;
+    }
+    /*///////////////////////////////////////////////*/
+    /* ########### footer #############*/
+    footer{
+        width: 100%;
+        padding: 30px;
+        background-color:  rgb(49, 49, 49);
+        margin-top: 20px;
+    }
+    .foot
+    {
+        display: flex;
+        flex-wrap: nowrap;   
+        Justify-content: space-between;
+        width: auto;
+    }
+    .foot article{
+        display: inline-block;
+    }
+    h3{
+        color: white;
+        font-family: arial;
+        font-size: 12px;
+        margin-bottom: 13px;
+    }
+    
+    .Datos{
+        text-align: left;
+        width: 50%;
+    }
+    
+    .Datos p{
+        color: white;
+        font-family: arial;
+        font-size: 10px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    .Menu{
+        text-align: left;
+        width: 30%
+    }
+    .Menu a{
+        color: white;
+        text-decoration: none;
+        padding: 0px;
+        border: 0px;
+        font-size: 10px;
+        font-family: arial;
+    }
+    .Social{
+        width: 25%;
+    }
+    .Social img{
+        min-width: 20px;
+        width: 15%;
+        margin-right: 5px;
+    }
+    /*/////////////////////////////////////////////*/
+    /* ######## Barra general secundaria ######### */
+    .BarraGeneral{
+        display: none;
+    }
+
+    .BarraGeneral ul{
+        text-align: center;
+        justify-content: center;
+        background-color:gray;
+    }
+    
+    .BarraGeneral ul a{
+        color: #fff;
+        display: block;
+        padding:10px;
+        text-decoration: none;
+    }
+    .BarraGeneral ul a:hover{
+        background-color: rgb(255, 255, 255);
+        color: #06a8de;
+    }
+
+    .desplegable{
+        background-image: url("../img/show-menu-button_icon-icons.com_72549.png");
+        background-size: cover;
+        width: 35px;
+        height: 35px;
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 68px;
+        right: 0px;
+        cursor: pointer;
+        background-color: gray;
+    }
+   
+}
+
+
+
+@media screen and (min-width: 450px) and (max-width: 800px){
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
+    /* ######## Header ###########*/
+    header{
+        background-color:rgb(76, 76, 76);
+        width: 100%;
+        /* position: fixed;
+        z-index: 1; */
+    }
+    .contenedor{
+        width: 95%;
+        margin: auto;
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-end;
+        align-content: center;
+    }
+    .item1{
+        width: 25%;
+    }
+    header img {
+        width: 30%;
+        height: 30%;
+        padding: 2%;    
+        min-width: 80px;
+        min-height: 60px;
+    }
+    .item2{
+        width: 80%;
+        text-align: right;
+        margin: auto;
+        align-items: center;
+    }
+    .item2 input{
+        display: inline-block;
+        width: 85%;
+        height: 25px;
+        text-align: center;
+        margin: 0px;
+    }
+    .item2 a{
+        display: inline-block;
+        width: 25px;
+        height: 27px;
+        background-color:rgb(114, 114, 112);
+        background-image: url(../Img/search-icon.png);
+        background-size: cover;
+        position: relative;
+        top:9px;
+        right:5px;
+    }
+    /*///////////////////////////////////////////////*/
+    /* ########### footer #############*/
+    footer{
+        width: 100%;
+        padding: 30px;
+        background-color:  rgb(49, 49, 49);
+        margin-top: 20px;
+    }
+    .foot
+    {
+        display: flex;
+        flex-wrap: nowrap;   
+        Justify-content: space-between;
+        width: auto;
+    }
+    .foot article{
+        display: inline-block;
+    }
+    h3{
+        color: white;
+        font-family: arial;
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    
+    .Datos{
+        text-align: left;
+        width: 50%;
+    }
+    
+    .Datos p{
+        color: white;
+        font-family: arial;
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    .Menu{
+        text-align: left;
+        width: 30%
+    }
+    .Menu a{
+        color: white;
+        text-decoration: none;
+        padding: 0px;
+        border: 0px;
+        font-size: 14px;
+        font-family: arial;
+    }
+    .Social{
+        width: 20%;
+    }
+    .Social img{
+        min-width: 35px;
+        width: 15%;
+        margin-right: 5px;
+    }
+    /*/////////////////////////////////////////////*/
+    /* ######## Barra general secundaria ######### */
+    .BarraGeneral{
+        display: none;
+    }
+
+    .BarraGeneral ul{
+        text-align: center;
+        justify-content: center;
+        background-color:gray;
+    }
+    
+    .BarraGeneral ul a{
+        color: #fff;
+        display: block;
+        padding:10px;
+        text-decoration: none;
+    }
+    .BarraGeneral ul a:hover{
+        background-color: rgb(255, 255, 255);
+        color: #06a8de;
+    }
+
+    .desplegable{
+        background-image: url("../img/show-menu-button_icon-icons.com_72549.png");
+        background-size: cover;
+        width: 35px;
+        height: 35px;
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 72px;
+        right: 0px;
+        cursor: pointer;
+        background-color: gray;
+    }
+   
+
+
+
+}
+
+@media screen and (min-width: 800px){
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
+    /* ######## Header ###########*/
+    header{
+        background-color:rgb(76, 76, 76);
+        width: 100%;
+        /* position: fixed;
+        z-index: 1; */
+    }
+    .contenedor{
+        width: 95%;
+        margin: auto;
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-end;
+        align-content: center;
+    }
+    .item1{
+        width: 25%;
+    }
+    header img {
+        width: 30%;
+        height: 30%;
+        padding: 2%;    
+        min-width: 80px;
+        min-height: 60px;
+    }
+    .item2{
+        width: 80%;
+        text-align: right;
+        margin: auto;
+        align-items: center;
+    }
+    .item2 input{
+        display: inline-block;
+        width: 85%;
+        height: 40px;
+        text-align: center;
+        margin: 0px;
+    }
+    .item2 a{
+        display: inline-block;
+        width: 40px;
+        height: 42px;
+        background-color:rgb(114, 114, 112);
+        background-image: url(../Img/search-icon.png);
+        background-size: cover;
+        position: relative;
+        top:16px;
+        right:5px;
+    }
+    /*///////////////////////////////////////////////*/
+    /* ########### footer #############*/
+    footer{
+        width: 100%;
+        padding: 30px;
+        background-color:  rgb(49, 49, 49);
+        margin-top: 20px;
+    }
+    .foot
+    {
+        display: flex;
+        flex-wrap: nowrap;   
+        Justify-content: space-between;
+        width: auto;
+    }
+    .foot article{
+        display: inline-block;
+    }
+    h3{
+        color: white;
+        font-family: arial;
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    
+    .Datos{
+        text-align: left;
+        width: 50%;
+    }
+    
+    .Datos p{
+        color: white;
+        font-family: arial;
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    .Menu{
+        text-align: left;
+        width: 30%
+    }
+    .Menu a{
+        color: white;
+        text-decoration: none;
+        padding: 0px;
+        border: 0px;
+        font-size: 14px;
+        font-family: arial;
+    }
+    .Social{
+        width: 20%;
+    }
+    .Social img{
+        min-width: 13%;
+        width: 15%;
+        margin-right: 5px;
+    }
+    /*/////////////////////////////////////////////*/
+    /* ######## Barra general secundaria ######### */
+    .BarraGeneral{
+        background-color: grey;
+    }
+    .BarraGeneral ul{
+        display: flex;
+        justify-content: center;
+        background-color:gray;
+    }
+    .BarraGeneral ul a{
+        color: #fff;
+        display: block;
+        padding:10px;
+        text-decoration: none;
+    }
+    .BarraGeneral ul a:hover{
+        background-color: #fff;
+        color: #06a8de;
+    }
+
+    .desplegable{
+        display: none;
+    }
+}

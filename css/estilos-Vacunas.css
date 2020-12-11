@@ -1,0 +1,157 @@
+
+@media screen and (max-width: 450px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    
+   
+
+    #calendario .fc-toolbar-chunk h2{
+        font-size: 1em;
+    }
+
+    .fc .fc-button{
+        padding: .2em !important;
+    }
+    main{
+        height: 350px;
+    }
+    /* Calendario
+    --------------------------------------------------------------------------*/
+    main p{
+        text-align: center;
+        color: grey;
+        font-family: arial;
+        font-size: 20px;  /*EL "VW" hace que se adapte el texto a la pantalla*/
+        padding-top: 2%;
+        margin-bottom: 15px;
+    }
+    main .fc-toolbar-title{
+        display: inline;
+        color: grey;
+        font-size: 3vw;
+    }
+    article{
+        width: 85%;
+        margin: auto;
+      }
+      article .fc-view-harness-active{
+          font-family: arial;
+          font-size: small;
+          background-color:grey;        
+          color:black;
+      }
+      
+      article .fc-scrollgrid-section-body table {
+          background-color: rgb(226, 245, 232);
+      }
+      article .fc-daygrid-event{
+          background-color: rgba(7, 170, 2, 0.836);
+          border-color: rgb(7, 121, 3);
+      }
+    /* <button disabled="" class="fc-today-button fc-button fc-button-primary" type="button">today</button>*/
+   
+
+    
+   
+}
+
+@media screen and (min-width: 450px) and (max-width: 800px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    
+    /* Calendario
+    --------------------------------------------------------------------------*/
+    main p{
+        text-align: center;
+        color: grey;
+        font-family: arial;
+        font-size: 3vw;  /*EL "VW" hace que se adapte el texto a la pantalla*/
+        padding-top: 2%;
+    }
+    main .fc-toolbar-title{
+        display: inline;
+        color: grey;
+        font-size: 3vw;
+    }
+    article{
+        width: 85%;
+        margin: auto;
+      }
+      article .fc-view-harness-active{
+          font-family: arial;
+          font-size: small;
+          background-color:grey;        
+          color:black;
+      }
+      
+      article .fc-scrollgrid-section-body table {
+          background-color: rgb(226, 245, 232);
+      }
+      article .fc-daygrid-event{
+          background-color: rgba(7, 170, 2, 0.836);
+          border-color: rgb(7, 121, 3);
+      }
+    /* <button disabled="" class="fc-today-button fc-button fc-button-primary" type="button">today</button>*/
+    
+   
+}
+
+@media screen and (min-width: 800px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    
+    /*Calendario
+    -----------------------------------------------------------------*/
+    main p{
+        text-align: center;
+        color: grey;
+        font-family: arial;
+        font-size: 3vw;  /*EL "VW" hace que se adapte el texto a la pantalla*/
+        padding-top: 2%;
+    }
+
+    main .fc-toolbar-title{
+        color: grey;
+    }
+    
+    article{
+      width: 85%;
+      margin: auto;
+    }
+    article .fc-view-harness-active{
+        font-family: arial;
+        font-size: small;
+        background-color:grey;        
+        color:black;
+    }
+    
+    article .fc-scrollgrid-section-body table {
+        background-color: rgb(226, 245, 232);
+    }
+    article .fc-daygrid-event{
+        background-color: rgba(7, 170, 2, 0.836);
+        border-color: rgb(7, 121, 3);
+    }
+    
+}

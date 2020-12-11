@@ -1,0 +1,298 @@
+@media screen and (max-width: 450px){
+     /*mapa de hospitales*/
+
+     .mapa h1{
+        text-align: center;
+        font-family: arial;
+        font-size: 20px;
+        color: rgb(77, 77, 77);
+        padding: 30px;
+        font-weight: lighter;
+    }
+    /*MAP DE GOOGLE, ACOMODAR*/
+    .google-map {
+        position: relative;
+        padding-bottom: 20%;
+        padding-top: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        height: 200px;
+        overflow: hidden;
+    }
+    .google-map iframe {
+        position: absolute;
+        top: 0;
+        left: 10%;
+        width: 80%;
+        height: 100%;
+        
+    }
+
+    /* Estilos agregados al sumar lista de hospitales y popup */
+    .mapa h2{
+        font-family: arial;
+        font-size: 5vw;
+        left: 10%;
+        color: rgb(77, 77, 77);
+        margin-top: 15px;
+        margin-left: 10%;
+        font-weight: lighter;
+    }
+    #ver-direccion{
+        font-family: arial;
+        font-size: 4vw;
+        left: 10%;
+        color: rgb(77, 77, 77);
+        margin-left: 10%;
+        padding-bottom: 10px;
+        font-weight: lighter;
+    }
+    #marco{
+        margin-left: 10%;
+    }
+    .nombres-hospitales{
+        padding-bottom: 10%;
+        color: rgb(17, 1, 165);
+        text-decoration: none;
+        cursor: pointer;
+        font-family: arial;
+        font-size: 4vw;
+    }
+    a:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    #abrir-guemes{
+        margin-bottom: 10px;
+    }
+    .popup{
+        border: 3px solid black;
+        background-color: rgb(255, 255, 255);
+        width: 70%;
+        height: 200px;
+        border-bottom-width: 5px;
+        text-align: center;
+        position: fixed;
+        z-index:2;
+        top: 30%;
+        left: 15%;
+        display:none;
+    }
+    .texto-popup{
+        font-size: 4vw;
+        margin-top: 10%;
+    }
+    .texto-cerrar{
+        color: white;
+        margin-top: 3%;
+        display: inline-block;
+        border-radius: 10px;
+        background-color: rgb(22, 79, 145);
+        padding: 3px;
+    }
+    .texto-cerrar:hover{
+        color: black;
+        background-color: rgb(96, 138, 187) ;
+    }
+    .google-map iframe {
+        top: 5%;
+    }
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 800px){
+    /*mapa de hospitales*/
+
+    .mapa h1{
+        text-align: center;
+        font-family: arial;
+        font-size: 24px;
+        color: rgb(77, 77, 77);
+        padding: 30px;
+        font-weight: lighter;
+    }
+    /*MAP DE GOOGLE, ACOMODAR*/
+    .google-map {
+        position: relative;
+        padding-bottom: 20%;
+        padding-top: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        height: 0;
+        overflow: hidden;
+    }
+    .google-map iframe {
+        position: absolute;
+        top: 0;
+        left: 10%;
+        width: 80%;
+        height: 100%;
+        
+    }
+
+    /* Estilos agregados al sumar lista de hospitales y popup */
+    .mapa h2{
+        font-family: arial;
+        font-size: 20px;
+        left: 10%;
+        color: rgb(77, 77, 77);
+        margin-top: 15px;
+        margin-left: 10%;
+        font-weight: lighter;
+    }
+    #ver-direccion{
+        font-family: arial;
+        font-size: 18px;
+        left: 10%;
+        color: rgb(77, 77, 77);
+        margin-left: 10%;
+        padding-bottom: 10px;
+        font-weight: lighter;
+    }
+    .nombres-hospitales{
+        margin-left: 10%;
+        padding-bottom: 10%;
+        color: rgb(17, 1, 165);
+        text-decoration: none;
+        cursor: pointer;
+        font-family: arial;
+    }
+    a:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    #abrir-guemes{
+        margin-bottom: 10px;
+    }
+    .popup{
+        border: 3px solid black;
+        background-color: rgb(255, 255, 255);
+        width: 50%;
+        height: 300px;
+        border-bottom-width: 5px;
+        text-align: center;
+        position: fixed;
+        z-index:2;
+        top: 30%;
+        left: 25%;
+        display:none;
+    }
+    .texto-popup{
+        font-size: 3vw;
+        margin-top: 10%;
+    }
+    .texto-cerrar{
+        color: white;
+        margin-top: 3%;
+        display: inline-block;
+        border-radius: 10px;
+        background-color: rgb(22, 79, 145);
+        padding: 3px;
+    }
+    .texto-cerrar:hover{
+        color: black;
+        background-color: rgb(96, 138, 187) ;
+    }
+    .google-map iframe {
+        top: 5%;
+    }
+}
+
+@media screen and (min-width: 800px){
+        /*mapa de hospitales*/
+
+    .mapa h1{
+        text-align: center;
+        font-family: arial;
+        font-size: 24px;
+        color: rgb(77, 77, 77);
+        padding: 30px;
+        font-weight: lighter;
+    }
+    /*MAP DE GOOGLE, ACOMODAR*/
+    .google-map {
+        position: relative;
+        padding-bottom: 20%;
+        padding-top: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        height: 0;
+        overflow: hidden;
+        
+    }
+    .google-map iframe {
+        position: absolute;
+        top: 0;
+        left: 10%;
+        width: 80%;
+        height: 100%;
+        
+    }
+
+    /* Estilos agregados al sumar lista de hospitales y popup */
+    .mapa h2{
+        font-family: arial;
+        font-size: 20px;
+        left: 10%;
+        color: rgb(77, 77, 77);
+        margin-top: 15px;
+        margin-left: 10%;
+        font-weight: lighter;
+    }
+    #ver-direccion{
+        font-family: arial;
+        font-size: 18px;
+        left: 10%;
+        color: rgb(77, 77, 77);
+        margin-left: 10%;
+        padding-bottom: 10px;
+        font-weight: lighter;
+    }
+    .nombres-hospitales{
+        margin-left: 10%;
+        padding-bottom: 10%;
+        color: rgb(17, 1, 165);
+        text-decoration: none;
+        cursor: pointer;
+        font-family: arial;
+    }
+    a:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    #abrir-guemes{
+        margin-bottom: 10px;
+    }
+    .popup{
+        border: 3px solid black;
+        background-color: rgb(255, 255, 255);
+        width: 40%;
+        height: 300px;
+        border-bottom-width: 5px;
+        text-align: center;
+        position: fixed;
+        z-index:2;
+        top: 30%;
+        left: 30%;
+        display:none;
+    }
+    .texto-popup{
+        font-size: 2vw;
+        margin-top: 10%;
+    }
+    .texto-cerrar{
+        color: white;
+        margin-top: 3%;
+        display: inline-block;
+        border-radius: 10px;
+        background-color: rgb(22, 79, 145);
+        padding: 3px;
+    }
+    .texto-cerrar:hover{
+        color: black;
+        background-color: rgb(96, 138, 187) ;
+    }
+    .google-map iframe {
+        top: 5%;
+    }
+}

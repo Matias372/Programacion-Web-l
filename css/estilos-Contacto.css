@@ -1,0 +1,435 @@
+
+@media screen and (max-width: 450px){
+     /*Separar el mensaje y contacto en columnas*/
+     .Formulario{
+        column-count: 2;
+    }
+
+    .Formulario h2{
+        font-family: arial;
+        font-size: 20px;
+        color: rgb(75, 75, 75);
+        font-weight: lighter;
+        margin-bottom: 2%;
+    }
+
+    .Formulario p{
+        font-family: Arial;
+    }
+    /*TAMAÑO DE LOS INPUT*/
+    .contacto{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    .contacto #nombreyapellido{
+        width: 90%;
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-bottom: 3%;
+    }
+
+    .contacto #Email{
+        width: 90%;
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-bottom: 3%;
+    }
+
+    .contacto #Telefono{
+        width: 90%;
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-bottom: 3%;
+    }
+
+    .contacto #Mensaje{
+        width: 90%;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-bottom: 3%;
+    }
+    
+    
+
+
+
+    /*BOTON DE ENVIAR*/
+    .enviar{
+        background-color: rgb(40, 40, 40);
+        color: white;
+        border-radius: 5px;
+        padding: 2px;
+        position: relative;
+        left: 70%;
+        top: -20px;
+        text-align: center;
+        font-family: arial;
+        font-size: 1em;
+        margin-top: 3%;
+    }
+
+
+    /*DATOS DE CONTACTO*/
+    .Datos-Contacto{
+        margin-top: 5%;
+        padding-bottom: 20%;
+        
+    }
+    .Datos-Contacto h2{
+        font-size: 20px;
+    }
+
+    .Datos-Contacto p{
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+    /*Imagenes de links*/
+    .Datos-Contacto img{
+        width: 5%;
+        margin-left: 1%;
+        margin-top: 2%;
+        min-width: 25px;
+    }
+
+    .mapa h2{
+        text-align: center;
+        font-family: arial;
+        font-size: 22px;
+        font-weight: lighter;
+        color: rgb(80, 80, 80);
+    }
+
+    .map{
+        position: relative;
+        padding-bottom: 20%;
+        padding-top: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .map iframe{
+        position: absolute;
+        top: 0;
+        left: 10%;
+        width: 80%;
+        height: 100%;
+    }
+
+
+    /*validacion*/
+    .contacto #mensaje{
+        color: crimson;
+        position: relative;
+        top: -25px;
+        width: 90%;
+    }
+
+    /*mensaje mostrar limite de caracteres*/
+    .contacto #CantidadL{
+        color: gray;
+        font-size: 10px;
+    }
+
+
+    /*acomodar las columnas*/
+    .Formulario .contacto{
+        -webkit-column-break-after: always;
+    }
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 800px){
+    /*Separar el mensaje y contacto en columnas*/
+    .Formulario{
+        column-count: 2;
+    }
+
+    .Formulario h2{
+        font-family: arial;
+        font-size: 25px;
+        color: rgb(75, 75, 75);
+        font-weight: lighter;
+        margin-bottom: 2%;
+    }
+
+    .Formulario p{
+        font-family: Arial;
+    }
+    /*TAMAÑO DE LOS INPUT*/
+    .contacto{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    .contacto #nombreyapellido{
+        width: 70%;
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-bottom: 3%;
+    }
+
+    .contacto #Email{
+        width: 70%;
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-bottom: 3%;
+    }
+
+    .contacto #Telefono{
+        width: 70%;
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-bottom: 3%;
+    }
+
+    .contacto #Mensaje{
+        width: 70%;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-bottom: 3%;
+    }
+
+
+
+    /*BOTON DE ENVIAR*/
+    .enviar{
+        background-color: rgb(40, 40, 40);
+        color: white;
+        border-radius: 5px;
+        padding: 2px;
+        position: relative;
+        left: 50%;
+        top: -35px;
+        text-align: center;
+        font-family: arial;
+        font-size: 1em;
+        margin-top: 3%;
+    }
+
+
+    /*DATOS DE CONTACTO*/
+    .Datos-Contacto{
+        margin-top: 5%;
+        padding-bottom: 20%;
+        
+    }
+
+    .Datos-Contacto p{
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+    /*Imagenes de links*/
+    .Datos-Contacto img{
+        width: 5%;
+        margin-left: 1%;
+        margin-top: 2%;
+        min-width: 35px;
+    }
+
+    .mapa h2{
+        text-align: center;
+        font-family: arial;
+        font-size: 22px;
+        font-weight: lighter;
+        color: rgb(80, 80, 80);
+    }
+
+    .map{
+        position: relative;
+        padding-bottom: 20%;
+        padding-top: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .map iframe{
+        position: absolute;
+        top: 0;
+        left: 10%;
+        width: 80%;
+        height: 100%;
+    }
+
+
+    /*validacion*/
+    .contacto #mensaje{
+        color: crimson;
+        position: relative;
+        top: -25px;
+        width: 50%;
+    }
+
+    /*mensaje mostrar limite de caracteres*/
+    .contacto #CantidadL{
+        color: gray;
+        font-size: 14px;
+    }
+
+
+    /*acomodar las columnas*/
+    .Formulario .contacto{
+        -webkit-column-break-after: always;
+    }
+}
+
+@media screen and (min-width: 800px){
+    /*Separar el mensaje y contacto en columnas*/
+    .Formulario{
+        column-count: 2;
+    }
+
+    .Formulario h2{
+        font-family: arial;
+        font-size: 25px;
+        color: rgb(75, 75, 75);
+        font-weight: lighter;
+        margin-bottom: 2%;
+    }
+
+    .Formulario p{
+        font-family: Arial;
+    }
+    /*TAMAÑO DE LOS INPUT*/
+    .contacto{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    .contacto #nombreyapellido{
+        width: 70%;
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-bottom: 3%;
+    }
+
+    .contacto #Email{
+        width: 70%;
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-bottom: 3%;
+    }
+
+    .contacto #Telefono{
+        width: 70%;
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-bottom: 3%;
+    }
+
+    .contacto #Mensaje{
+        width: 70%;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-bottom: 3%;
+    }
+
+
+
+    /*BOTON DE ENVIAR*/
+    .enviar{
+        background-color: rgb(40, 40, 40);
+        color: white;
+        border-radius: 5px;
+        padding: 2px;
+        position: relative;
+        left: 60%;
+        top: -35px;
+        text-align: center;
+        font-family: arial;
+        font-size: 1em;
+        margin-top: 3%;
+    }
+
+
+    /*DATOS DE CONTACTO*/
+    .Datos-Contacto{
+        margin-top: 5%;
+        padding-bottom: 20%;
+        
+    }
+
+    .Datos-Contacto p{
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+    /*Imagenes de links*/
+    .Datos-Contacto img{
+        width: 5%;
+        margin-left: 1%;
+        margin-top: 2%;
+        min-width: 35px;
+    }
+
+    .mapa h2{
+        text-align: center;
+        font-family: arial;
+        font-size: 22px;
+        font-weight: lighter;
+        color: rgb(80, 80, 80);
+    }
+
+    .map{
+        position: relative;
+        padding-bottom: 20%;
+        padding-top: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .map iframe{
+        position: absolute;
+        top: 0;
+        left: 10%;
+        width: 80%;
+        height: 100%;
+    }
+
+
+    /*validacion*/
+    .contacto #mensaje{
+        color: crimson;
+        position: relative;
+        top: -25px;
+        width: 50%;
+    }
+
+    /*mensaje mostrar limite de caracteres*/
+    .contacto #CantidadL{
+        color: gray;
+        font-size: 14px;
+    }
+
+
+    /*acomodar las columnas*/
+    .Formulario .contacto{
+        -webkit-column-break-after: always;
+    }
+}
