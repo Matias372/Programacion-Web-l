@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/estilos-index.css">
+    <link rel="stylesheet" href="css/estilos-general.css">
+
+    <!-- srcip para slider BXSLIDER-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/slider.js" ></script>
+    <script src="js/desplegar-menu.js"></script>
+</head>
+<body>
+    <!--Logo, Barra de busqueda...-->
+    <header>
+        <section class="contenedor">
+			<article class="item1">
+               <img src="img/LOGO2.png" alt="LogoDeLaPagina" id="LogoPagina">
+            </article>
+			<article class="item2">
+			    <form action="" method="post" >            
+                    <input type="text" class="boton" placeholder="Buscar" title="ingrese enfermedad a buscar" autocomplete="off">
+                    <!-- button type="submit" class="boton"></button-->
+                    <a href="https://www.unlam.edu.ar/" class="boton-buscar"></a>
+                </form>
+			</article>
+         </section>
+    </header>
+
+    <!--Barra Secundaria-->
+    <nav class="BarraGeneral">
+        <ul> 
+            <a href="index.html">HOME</a>
+            <a href="Enfermedades.html">ENFERMEDADES</a>
+            <a href="Vacunas.html">VACUNACION</a> 
+            <a href="Mapa-Hospitales.html">HOSPITALES</a>
+            <a href="Contactanos.html">CONTACTO</a>
+        </ul>
+    </nav>
+    <a class="desplegable"></a>
+    
+    <!--slider?-->
+    
+    <section class="slider">
+        <section class="contenedor">
+            <ul class="bxslider">
+                <li><img src="img/covid-19- virus.jpg" /></li>
+                <li><img src="img/ciudad.jpg" /></li>
+                <li><img src="img/trajes.jpg" /></li>
+            </ul>
+        </section>
+    </section>
+
+    <!--enfermedades, hospitales, vacunas-->
+    <section class="columnas">
+        <article class="Titulo">
+            <h1>TÍTULO DE LA PÁGINA</h1>
+        </article>        
+        <article class="ART" id="enfermedades">
+            <a href="Enfermedades.html"><img src="img/Enfermedad.png" alt="img-de-enfermedad" id="Enfermedad-img"></a>
+            <h2>ENFERMEDADES</h2>
+        </article>
+        <article class="ART" id="vacunas">
+            <a href="Vacunas.html"><img src="img/Vacuna.png" alt="img-de-vacuna" id="Vacuna-img"></a>
+            <h2>VACUNAS</h2>
+        </article>
+        <article class="ART" id="hospitales">
+            <a href="Mapa-Hospitales.html"><img src="img/Hospital.png" alt="img-de-hospital" id="Hospital-img"></a>
+            <h2>MAPA DE HOSPITALES</h2>
+        </article>
+    </section>
+    <!--telefono-->
+    <section class="telefono">
+        <article>
+            <div class="D1">
+                <p id="P1">Si tenés sintomas de COVID- 19</p>
+                <p id="P2"><strong>LLAMÁ AL</strong></p>
+            </div>
+            <div class="D2">
+                <img src="img/icono-telefono.png" alt="icono-telefono" class="img-telefono">
+                <p id="P3">148</p>
+            </div>
+        </article>
+    </section>
+    <!--  footer estado-general.css -->
+    <!--Datos del grupo-->
+    <footer class="foot" id="Footter">
+        <article class="Datos">
+            <h3>Datos del Grupo:</h3>
+            <p>Matias Ruibal - 39.166.947</p><!--it's me mario!-->
+            <p>Alejandro lopez - 35.069.772</p> <!--mama mia -->
+            <p>Matías Villalba - DNI</p>
+        </article>
+        <!-- listado del menu-->
+        <article class="Menu">
+            <h3>Menu inferior:</h3>
+            <p><a href="Enfermedades.html">Enfermedades</a></p>
+            <p><a href="Vacunas.html">Vacunas </a></p>
+            <p><a href="Mapa-Hospitales.html">Hospitales </a></p>
+            <p><a href="Contactanos.html">Contacto</a></p>
+        </article>
+        <!-- redes sociales-->
+        <article class="Social">
+            <h3>Redes Sociales:</h3>
+            <a href="https://www.facebook.com/"><img src="img/Facebook-icon.png" alt="facebook"> </a>
+            <a href="https://www.instagram.com/?hl=es-la"> <img src="img/Intagram-icon.png" alt="instagram"> </a>
+            <a href="https://twitter.com/"> <img src="img/Twitter-icon.png" alt="twitter"> </a>
+        </article>
+    </footer>
+</body>
+</html>

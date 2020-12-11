@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+    <title>Vacunas</title>
+    <link rel="stylesheet" href="css/estilos-general.css">
+    <link rel="stylesheet" href="css/estilos-Vacunas.css">
+    <!-- scripts de menu desplegable-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/desplegar-menu.js"></script>
+    <!-- links de calendario-->
+    <link href="fullcalendar/lib/main.css" rel='styelesheet' />
+    <link href="fullcalendar/lib/main.min.css" rel='stylesheet' />
+    <script src="fullcalendar/lib/main.js"></script>
+    <script src="fullcalendar/lib/locales-all.js"></script>
+    
+    <script src="js/calendario.js"></script>
+    
+</head>
+<body>
+    <!--Logo, Barra de busqueda...-->
+    <header>
+        <section class="contenedor">
+			<article class="item1">
+               <img src="img/LOGO2.png" alt="LogoDeLaPagina" id="LogoPagina">
+            </article>
+			<article class="item2">
+			    <form action="" method="post" >            
+                    <input type="text" class="boton" placeholder="Buscar" title="ingrese enfermedad a buscar" autocomplete="off">
+                    <!-- button type="submit" class="boton"></button-->
+                    <a href="https://www.unlam.edu.ar/" class="boton-buscar"></a>
+                </form>
+			</article>
+         </section>    
+    </header>
+
+    <!--Barra Secundaria-->
+    <nav class="BarraGeneral">
+        <ul> 
+            <a href="index.html">HOME</a>
+            <a href="Enfermedades.html">ENFERMEDADES</a>
+            <a href="Vacunas.html">VACUNACION</a> 
+            <a href="Mapa-Hospitales.html">HOSPITALES</a>
+            <a href="Contactanos.html">CONTACTO</a>
+        </ul>
+        
+    </nav>
+    <a class="desplegable"></a>
+
+    
+    <!--CALENDARIO-->
+    <main>
+        <p>Calendario de Vacunación</p>
+        <article id="calendario"></article>
+    </main>
+
+
+    <!--Datos del grupo-->
+    <footer class="foot" id="Footter">
+        <article class="Datos">
+            <h3>Datos del Grupo:</h3>
+            <p>Matias Ruibal - 39.166.947</p><!--it's me mario!-->
+            <p>Alejandro lopez - 35.069.772</p>
+            <p>Matías Villalba - DNI</p>
+        </article>
+
+        <article class="Menu">
+            <h3>Menu inferior:</h3>
+            <a href="Enfermedades.html">Enfermedades <br> </a>
+            <a href="Vacunas.html">Vacunas <br> </a>
+            <a href="Mapa-Hospitales.html">Hospitales <br> </a>
+            <a href="Contactanos.html">Contacto</a>
+        </article>
+
+        <article class="Social">
+            <h3>Redes Sociales:</h3>
+            <a href="https://www.facebook.com/"><img src="img/Facebook-icon.png" alt="facebook"> </a>
+            <a href="https://www.instagram.com/?hl=es-la"> <img src="img/Intagram-icon.png" alt="instagram"> </a>
+            <a href="https://twitter.com/"> <img src="img/Twitter-icon.png" alt="twitter"> </a>
+        </article>
+    </footer>
+</body>
+</html>
